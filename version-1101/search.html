@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>搜索影片-欧美电影大全-热门电影片库-高清影片在线观看</title>
+  <meta name="description" content="搜索欧美电影大全片库中的影片标题、地区、年份、类型和标签。">
+  <meta name="keywords" content="欧美电影大全,欧美电影,热门电影片库,高清影片,精选欧美电影,高分欧美电影,电影分类,电影搜索,影片搜索">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-root="">
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="欧美电影大全首页">
+      <span class="logo-mark" aria-hidden="true"><span></span></span>
+      <span class="logo-text">欧美电影大全</span>
+    </a>
+    <button class="menu-toggle" type="button" data-menu-toggle aria-label="打开导航">☰</button>
+    <nav class="nav-list" data-nav-list>
+      <a class="" href="index.html">首页</a>
+      <a class="" href="categories.html">分类</a>
+      <a class="" href="ranking.html">排行榜</a>
+      <a class="" href="sitemap.html">片库地图</a>
+    </nav>
+    <form class="search-form" action="search.html" method="get" data-search-form>
+      <label class="sr-only" for="site-search-search">搜索影视作品</label>
+      <input id="site-search-search" type="search" name="q" placeholder="搜索影视作品..." autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+  </div>
+</header>
+
+<main>
+
+<section class="page-hero search-hero">
+  <div class="container">
+    <p class="eyebrow">Search</p>
+    <h1>搜索影片</h1>
+    <p>输入影片标题、地区、年份、类型或标签，快速定位片库中的对应详情页。</p>
+    <form class="hero-search" action="search.html" method="get" data-search-form>
+      <label class="sr-only" for="search-page-input">搜索影视作品</label>
+      <input id="search-page-input" type="search" name="q" placeholder="输入关键词..." autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+  </div>
+</section>
+<section class="container section search-section">
+  <div id="search-summary" class="search-summary">请输入关键词开始搜索。</div>
+  <div id="search-results" class="movie-grid"></div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <section>
+      <div class="footer-logo">
+        <span class="footer-logo-mark" aria-hidden="true"></span>
+        <strong>欧美电影大全</strong>
+      </div>
+      <p>欧美电影大全栏目汇集多类型欧美影片，覆盖动作、科幻、剧情等题材，片库内容持续整理。</p>
+    </section>
+    <section>
+      <h2>快速入口</h2>
+      <ul>
+        <li><a href="index.html">首页</a></li>
+        <li><a href="categories.html">分类浏览</a></li>
+        <li><a href="ranking.html">排行榜</a></li>
+        <li><a href="sitemap.html">片库地图</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>分类推荐</h2>
+      <ul><li><a href="category-euro-hot.html">欧美热门片库</a></li><li><a href="category-high-score.html">高分电影精选</a></li><li><a href="category-action-adventure.html">动作冒险专区</a></li><li><a href="category-suspense-crime.html">悬疑犯罪专区</a></li></ul>
+    </section>
+    <section>
+      <h2>片库主题</h2>
+      <p>围绕欧美电影、热门电影片库、高清影片与多类型电影分类整理，适合搜索引擎与用户浏览。</p>
+    </section>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 欧美电影大全. All rights reserved.</p>
+  </div>
+</footer>
+
+<script type="module" src="assets/site.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>搜索影片-欧美视频片库</title>
+  <meta name="description" content="搜索影片页面，可按片名、年份、地区、类型和标签查找视频内容。">
+  <meta name="keywords" content="最新欧美视频,欧美视频更新,高清视频,在线播放,视频片库,热门视频,搜索影片,影片检索">
+  <meta name="robots" content="index, follow">
+  <link rel="stylesheet" href="./assets/site.css">
+  <script src="./assets/site.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="./index.html" aria-label="欧美视频片库">
+      <span class="brand-mark">▶</span>
+      <span class="brand-name">欧美视频片库</span>
+    </a>
+    <nav class="main-nav" aria-label="主导航">
+      <a class="nav-link" href="./index.html">首页</a><a class="nav-link" href="./categories.html">分类</a><a class="nav-link" href="./rankings.html">排行榜</a><a class="nav-link is-active" href="./search.html">搜索</a>
+      <div class="nav-dropdown">
+        <button class="nav-drop-button" type="button">频道</button>
+        <div class="nav-drop-panel">
+          <a href="./category-europe-us-new.html">欧美新片</a><a href="./category-hot-library.html">热门片库</a><a href="./category-suspense-thriller.html">悬疑惊悚</a><a href="./category-romance-comedy.html">爱情喜剧</a><a href="./category-action-adventure.html">动作冒险</a><a href="./category-sci-fi-animation.html">科幻动画</a><a href="./category-family-drama.html">家庭剧情</a><a href="./category-asia-selection.html">日韩精选</a><a href="./category-chinese-channel.html">华语频道</a><a href="./category-premium-collection.html">高清精选</a>
+        </div>
+      </div>
+    </nav>
+    <form class="header-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索影片" autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+    <button class="menu-button" type="button" aria-label="展开导航" data-menu-button>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+  <div class="mobile-panel" data-mobile-panel>
+    <a href="./index.html">首页</a>
+    <a href="./categories.html">分类</a>
+    <a href="./rankings.html">排行榜</a>
+    <a href="./search.html">搜索</a>
+    <a href="./category-europe-us-new.html">欧美新片</a><a href="./category-hot-library.html">热门片库</a><a href="./category-suspense-thriller.html">悬疑惊悚</a><a href="./category-romance-comedy.html">爱情喜剧</a><a href="./category-action-adventure.html">动作冒险</a><a href="./category-sci-fi-animation.html">科幻动画</a><a href="./category-family-drama.html">家庭剧情</a><a href="./category-asia-selection.html">日韩精选</a><a href="./category-chinese-channel.html">华语频道</a><a href="./category-premium-collection.html">高清精选</a>
+  </div>
+</header>
+<main>
+  <section class="page-hero">
+    <div class="container page-title">
+      <div class="breadcrumb"><a href="./index.html">首页</a><span>/</span><span>搜索</span></div>
+      <h1>搜索影片</h1>
+      <p>输入片名、年份、地区、类型或标签，快速定位相关影片。</p>
+    </div>
+  </section>
+  <section class="section" data-search-root>
+    <div class="container">
+      <div class="search-box">
+        <input type="search" data-search-input placeholder="输入关键词" autocomplete="off">
+        <button class="search-button" type="button">搜索</button>
+      </div>
+      <div class="movie-grid" data-search-results></div>
+      <p class="no-result" data-search-empty>未找到相关影片</p>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <h2>欧美视频片库</h2>
+      <p>精选视频内容，聚合近期热门片库，提供清晰顺畅的在线播放入口。</p>
+    </div>
+    <div class="footer-links">
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类</a>
+      <a href="./rankings.html">排行榜</a>
+      <a href="./search.html">搜索</a>
+      <a href="./category-europe-us-new.html">欧美新片</a><a href="./category-hot-library.html">热门片库</a><a href="./category-suspense-thriller.html">悬疑惊悚</a><a href="./category-romance-comedy.html">爱情喜剧</a><a href="./category-action-adventure.html">动作冒险</a><a href="./category-sci-fi-animation.html">科幻动画</a>
+    </div>
+  </div>
+  <p class="footer-copy">© 2026 欧美视频片库 · 高清视频内容持续更新</p>
+</footer>
+<script src="./assets/search-data.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
